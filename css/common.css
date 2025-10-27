@@ -120,8 +120,16 @@ a {
   row-gap: 48px;
 }
 
-.gallery-image {
+.gallery-item {
   flex-basis: calc((100% - 48px) / 3);
+  list-style: none;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 /* Task_3 */
